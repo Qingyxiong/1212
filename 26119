@@ -1,0 +1,95 @@
+{
+    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/0707/main/spider.jar",
+    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "豆瓣｜推荐",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "厂长",
+            "name": "厂长｜影视(直连)",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "playerType": 2,
+            "searchable": 1,
+            "ext": "https://www.czzymovie.com/"
+        },
+        {
+            "key": "低端",
+            "name": "低端｜影视(高码)",
+            "type": 3,
+            "api": "csp_Ddys",
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        {
+            "key": "骚火",
+            "name": "骚火｜影视(秒开)",
+            "type": 3,
+            "api": "csp_SaoHuo",
+            "ext": "https://shdy5.us"
+        },
+        {
+            "key": "哔滴",
+            "name": "哔滴｜APP(精品)",
+            "type": 3,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
+                "dataKey": "5ae8ee4bb95ea0ce",
+                "dataIv": "5ae8ee4bb95ea0ce",
+                "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
+            }
+        },
+        {
+            "key": "玩偶",
+            "name": "玩偶｜4K云盘",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "ext": "./json/wogg.json"
+        },
+        {
+            "key": "至臻",
+            "name": "至臻｜4K云盘",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "ext": "./json/zz.json"
+        },
+        {
+            "key": "夸克盘搜",
+            "name": "夸克｜搜索",
+            "type": 3,
+            "api": "csp_PanSou",
+            "ext": {
+                "cloudDrives": "quark"
+            }
+        },
+        {
+            "key": "星芽短剧",
+            "name": "星芽｜短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "ext": "./json/xydj.json"
+        },
+        {
+            "key": "推送",
+            "name": "手机｜推送",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=all"
+        }
+    ],
+    "lives": [
+        {
+            "name": "直播",
+            "type": 0,
+            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"
+        }
+    ]
+}
